@@ -1,0 +1,119 @@
+ /* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 50px; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+ /* The sidebar menu */
+#sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 220px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 50px; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+} 
+
+.navbar {
+  width: 100%;
+  height: 20%;
+  position: relative;
+  z-index: 2;
+}
+
+.btn-sm {
+  height: 20px;
+  width: 50px;
+  font-size: 12px;
+  margin-top: 1px;
+  padding-top: 0px;
+}
+
+.btn-sm.job-btn {
+  height: 20px;
+  width: 50px;
+  font-size: 12px;
+  margin-top: 1px;
+  padding-top: 0px;
+}
+
+.btn-lg {
+  height: 20px;
+  width: 105px;
+  font-size: 12px;
+  margin-top: 1px;
+  padding-top: 0px;
+}
+
+.btn-primary.equip-btn {
+  width: 35px;
+  font-size: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding : 2px;
+    margin-left: 0px;
+    display: inline;
+    border: 0px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    border: 0px;
+}
+
+.toggle .toggle-group label {
+
+    font-size: 15px;
+	padding-left: 3px;
+	padding-top: 0px;
+}
+
+#toggleBtn{
+	padding-left:500px;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
